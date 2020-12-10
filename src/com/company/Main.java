@@ -1,3 +1,5 @@
+package com.company;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -6,6 +8,10 @@ public class Main {
 
 
 
+        double result;
+        result = 5.0/6;
+
+        System.out.println(result);
 
     }
 }
