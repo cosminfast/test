@@ -5,18 +5,18 @@ public class AppMain {
     public static void main(String[] args) {
         Dog myDog = new Dog();
 
-        System.out.println(myDog.age);
-        System.out.println(myDog.name);
+        System.out.println(myDog.getAge());
+        System.out.println(myDog.getName());
         myDog.bark();
-        myDog.name = "Becs";
-        System.out.println(myDog.name);
+        myDog.setName("Becs");
+        System.out.println(myDog.getName());
 
         Dog mySecondDog = new Dog();
         Dog mySecondDog2 = new Dog();
         Dog mySecondDog3 = new Dog();
         Dog mySecondDog4 = new Dog();
-        mySecondDog3.color = "roz";
-        mySecondDog.name = "tex";
-        System.out.println(mySecondDog.name);
+        mySecondDog3.setColor("roz");
+        mySecondDog.setName("Tex");
+        System.out.println(mySecondDog.getName());
     }
 }
