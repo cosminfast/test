@@ -1,4 +1,4 @@
-package com.company.lab2.AnimalRescue;
+package com.company.AnimalRescue;
 
 public class Duck extends Animal{
     public void fly(){

@@ -31,7 +31,15 @@ public class Logic {
 
         }
         return sum/array.length;
+    }
 
+    public boolean isValueInArray(int[] array, int ceva){
+
+        for (int i = 0; i < array.length; i++){
+            if (array[i] == ceva )
+                return true;
+        }
+        return false;
     }
 }
 
