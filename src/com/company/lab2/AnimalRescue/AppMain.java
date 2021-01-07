@@ -18,5 +18,17 @@ public class AppMain {
         mySecondDog3.setColor("roz");
         mySecondDog.setName("Tex");
         System.out.println(mySecondDog.getName());
+
+        Duck quack = new Duck();
+        quack.setName("rata");
+        quack.setAge(3);
+
+        Labrador tomy = new Labrador();
+        tomy.setName("Tommy");
+        tomy.eat();
+
+        GreenDuck ducky = new GreenDuck();
+        ducky.setName("Duck");
+
     }
 }
